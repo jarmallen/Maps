@@ -12,6 +12,7 @@
 		FA3A051D1C569EC300654A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3A051B1C569EC300654A45 /* Main.storyboard */; };
 		FA3A051F1C569EC300654A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA3A051E1C569EC300654A45 /* Assets.xcassets */; };
 		FA3A05221C569EC300654A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3A05201C569EC300654A45 /* LaunchScreen.storyboard */; };
+		FADE51AA1C600CF5009BED53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADE51A91C600CF5009BED53 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FA3A051E1C569EC300654A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA3A05211C569EC300654A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA3A05231C569EC300654A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE51A91C600CF5009BED53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADE51AA1C600CF5009BED53 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		FA3A050B1C569EC300654A45 = {
 			isa = PBXGroup;
 			children = (
+				FADE51A91C600CF5009BED53 /* CoreLocation.framework */,
 				FA3A05161C569EC300654A45 /* Maps */,
 				FA3A05151C569EC300654A45 /* Products */,
 			);
@@ -285,6 +289,7 @@
 				FA3A05281C569EC300654A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
